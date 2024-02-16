@@ -1,0 +1,52 @@
+.header {
+  overflow: hidden;
+  background-color: #0039a6;
+  height: 60px!important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo{
+  font-size: 38px;
+  font-family:Arial, Helvetica, sans-serif;
+  top: 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.Inputs{
+ display: flex;
+  float: right;
+  flex: 1;
+  align-items: center!important;
+
+}
+.routerLinkActive{
+  background: white;
+}
+.RouterButton{
+  height: 60px;
+  min-height: unset!important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.googleSign{
+  margin-left: 10px;
+
+}
+img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+::ng-deep.mat-menu-panel.menuButton {
+  margin-top: 100px;
+}
